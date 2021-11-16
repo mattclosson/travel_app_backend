@@ -29,7 +29,8 @@ mongoose.connect(DATABASE_URL, {
 //////////////////////////////
 // the place schema
 const PlaceSchema = new mongoose.Schema({
-    title: String,
+    city: String,
+    state: String,
     img: String,
     description: String
 }, {timestamps: true})
